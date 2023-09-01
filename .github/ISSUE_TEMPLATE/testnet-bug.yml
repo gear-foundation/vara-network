@@ -40,13 +40,13 @@ body:
     id: browsers
     attributes:
       label: What browsers are you seeing the problem on?
-      multiple: true
+      description: You may select more than one.
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-        - Other
+        - label: Firefox
+        - label: Chrome
+        - label: Safari
+        - label: Microsoft Edge
+        - label: Other
     validations:
       required: true
 
@@ -60,12 +60,12 @@ body:
     id: wallets
     attributes:
       label: Which wallet you are using?
-      multiple: true
+      description: You may select more than one.
       options:
-        - PolkadotJS
-        - Talisman
-        - Nova Wallet
-        - SubWallet
+        - label: PolkadotJS
+        - label: Talisman
+        - label: Nova Wallet
+        - label: SubWallet
     validations:
       required: true
 
