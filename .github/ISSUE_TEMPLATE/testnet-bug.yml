@@ -1,6 +1,6 @@
 name: Testnet Bug Report
 description: Create a report to help us get it right
-labels: [bug]
+labels: [testnet, bug]
 
 body:
   - type: markdown
@@ -35,6 +35,12 @@ body:
       label: Expected Behavior
       description: A clear and concise description of what you expected to happen.
       placeholder: I've expected...
+
+  - type: input
+    id: address
+    attributes:
+      label: Your Substrate Address
+      placeholder: e.g., 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
 
   - type: checkboxes
     id: browsers

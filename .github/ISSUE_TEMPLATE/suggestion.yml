@@ -1,0 +1,40 @@
+name: Feature & UX Suggestions
+description: Suggest an idea for this project
+labels: [suggestion]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Provide a brief description of the feature or user experience you would like to see or change.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a brief description of the feature or UX improvement you'd like to see.
+      placeholder: I'm frustrated when I see... I would like to change...
+    validations:
+      required: true
+
+  - type: textarea
+    id: value
+    attributes:
+      label: Value
+      description: Explain why this would be useful or improve the overall testnet experience.
+      placeholder: It would increase... It would make better...
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples
+      description: If applicable, provide examples of how this could work - screenshots, mockups, user flows etc.
+      placeholder: Upload your screenshots, videos...
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional Details
+      description: Any other context or information that could help with implementation.
