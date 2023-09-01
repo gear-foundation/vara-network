@@ -47,6 +47,8 @@ body:
         - Safari
         - Microsoft Edge
         - Other
+    validations:
+      required: true
 
   - type: input
     id: other_browser
@@ -64,13 +66,15 @@ body:
         - Talisman
         - Nova Wallet
         - SubWallet
+    validations:
+      required: true
 
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
       description: Upload screenshots/video.
-      placeholder: Drag and drop screenshots/video here.
+      placeholder: Click here then drag and drop screenshots/video.
 
   - type: textarea
     id: notes
