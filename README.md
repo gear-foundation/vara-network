@@ -1,3 +1,3 @@
-# Vara Testnet
+# Vara Network
 
-Please [create an issue](https://github.com/gear-foundation/vara-testnet/issues/new) for any error found when using Vara Incentivized Testnet.
+Please [create an issue](https://github.com/gear-foundation/vara-network/issues/new/choose) for any error found when using Vara Network.

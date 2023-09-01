@@ -48,6 +48,12 @@ body:
         - Microsoft Edge
         - Other
 
+  - type: input
+      id: other_browser
+      attributes:
+        label: Other browser
+        placeholder: Fill this field if your browser is not in the list above.
+
   - type: dropdown
     id: wallets
     attributes:
@@ -63,7 +69,8 @@ body:
     id: screenshots
     attributes:
       label: Screenshots
-      description: Drag and drop screenshots/video here.
+      description: Upload screenshots/video.
+      placeholder: Drag and drop screenshots/video here.
 
   - type: textarea
     id: notes
