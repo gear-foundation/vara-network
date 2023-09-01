@@ -49,10 +49,10 @@ body:
         - Other
 
   - type: input
-      id: other_browser
-      attributes:
-        label: Other browser
-        placeholder: Fill this field if your browser is not in the list above.
+    id: other_browser
+    attributes:
+      label: Other browser
+      placeholder: Fill this field if your browser is not in the list above.
 
   - type: dropdown
     id: wallets
